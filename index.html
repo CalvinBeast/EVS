@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EVS Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+  </head>
+  <body>
+<div class="container-fluid index">
+      <div class="row banner p-5">
+        <div class="col-3"></div>
+
+        <div class="col-6">
+          <h1 class="heading py-3">ELECTRINIC VOTING SYSTEM</h1>
+        </div>
+        
+        <div class="col-3"></div>
+      </div>
+    
+<div class="pos"><img src="sticky.jpg" alt=".." class="bg"></div>
+    <div class="row position">
+      <div class="col text-center">
+        <h1>THE PARTIES</h1>
+      </div>
+    </div>
+
+    <div class="row rpos">
+      <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Tree Banner.png" class="d-block w-100" alt="Tree">
+            </div>
+            <div class="carousel-item">
+              <img src="Mountain Banner.png" class="d-block w-100" alt="Mountain">
+            </div>
+            <div class="carousel-item">
+              <img src="Grape Banner.png" class="d-block w-100" alt="Grape">
+            </div>
+            <div class="carousel-item">
+              <img src="Crown Banner.png" class="d-block w-100" alt="Crown">
+            </div>
+            <div class="carousel-item">
+              <img src="Specs Banner.png" class="d-block w-100" alt="Glasses">
+            </div>
+          </div>
+          <button class="carousel-control-prev btn-color" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5 pb-5 position">
+          
+      <div class="col-4"></div>
+      <div class="col-4 formbg" id="body" >
+        <form class="m-5" action="api/login.php" method="post">
+          <div class="text-center">
+            <b><h4>Login Here</h4></b>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Your Mobile Number</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="mobile">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+          </div>
+          <div class="mb-3">
+            <select class="form-select" aria-label="Default select example" name="role">
+              <option selected> Choose Account Type </option>
+              <option value="1">Voter</option>
+              <option value="2">Candidate</option>
+            </select>
+          </div>
+          
+          <button type="submit" class="btn butn butt" name="login">Login</button>
+          <button type="submit" class="btn butn "><a href="Routes/Registration.html">Register</a></button>
+        
+        </form>
+
+      </div>
+      <div class="col-4"></div>
+
+    </div>
+
+    </div>
+
+  
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

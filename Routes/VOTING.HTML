@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+
+        <div class="userinfo">
+
+            <center> <img src="../uploads/<?php echo $userdata['avatar'] ?>" height="100" width="100"> </center>
+            <br>
+            <br>
+            <b> Name: </b> <?php echo $userdata['name'] ?>
+            <b> Mobile: </b> <?php echo $userdata['mobile'] ?>
+            <b> Address: </b> <?php echo $userdata['address'] ?>
+            <b> Status: </b> <?php echo $userdata['status'] ?>
+
+        </div>
+
+        <div class="groups"></div>
+
+    </div>
+</body>
+</html>
